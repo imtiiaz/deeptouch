@@ -1,0 +1,410 @@
+/* 1.---------------------------------------------
+                Template default css
+------------------------------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Barlow', sans-serif;
+    background: #c3b9ea;
+    color: #efeafc;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    outline: 0;
+}
+
+a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+
+.btn.focus,
+.btn:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+.form-control:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.overflow {
+    overflow-x: hidden;
+}
+
+.slick-slide:focus {
+    outline: 0;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1;
+    text-transform: capitalize;
+}
+
+p {
+    font-family: 'open sans', sans-serif;
+    font-size: 14px;
+    color: #595866;
+    line-height: 1.2;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+
+/*-------------------------------------------
+                    Home Page
+-----------------------------------------------*/
+
+.container {
+    background: #2d2449;
+    margin: 30px auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+/*-------Header Start------*/
+
+.header {
+    display: flex;
+    background: #282043;
+    padding: 15px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.search {
+    flex-grow: 1;
+}
+
+.search {
+    padding-left: 100px;
+}
+
+.search a i {
+    color: #d8d0d0;
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    background: rgba(79, 74, 119, 0.63);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -os-transition: all linear .3s;
+    -ms-transition: all linear .3s
+}
+
+.search a i:hover {
+    color: #fff;
+}
+
+.header_right a {
+    font-size: 14px;
+    color: #615a81;
+    font-weight: 500;
+    margin-left: 15px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -os-transition: all linear .3s;
+    -ms-transition: all linear .3s
+}
+
+.header_right a:hover {
+    color: #d8d0d0;
+}
+
+.header_right .btn {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #d8d0d0;
+    line-height: 1;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgb(79, 74, 119);
+}
+
+/*-----------------------------------Header End-----------------------------*/
+
+/*------------------------------Sidebar Start---------------------------*/
+
+.side_bar {
+    background: #332e59;
+    padding: 50px 0;
+    width: 70px;
+    border-bottom-left-radius: 10px;
+    display: inline-block;
+}
+
+.side_bar a.active {
+    color: #fff;
+}
+
+.side_bar a {
+    display: block;
+    font-size: 16px;
+    color: #595866;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -os-transition: all linear .3s;
+    -ms-transition: all linear .3s
+}
+
+.side_bar a:hover {
+    color: #fff;
+}
+
+/*-----------------------------Sidebar End---------------------*/
+
+/*----------------------------Body Start-------------------------*/
+
+.body {
+    flex-grow: 1;
+}
+
+
+/*-----deep touch----*/
+
+.deep_touch {
+    /*
+    background: url(../images/deeptouch/somke.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+*/
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.deep_text {}
+
+.deep_text p {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    line-height: 1.5;
+}
+
+.deep_text h4 {
+    font-size: 12px;
+    color: #595866;
+}
+
+.deep_text h4 a {
+    font-size: 14px;
+    color: #b9bacb;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1;
+    color: #b9bacb;
+    position: relative;
+    padding-left: 40px;
+
+}
+
+h2 i {
+    color: #fff;
+    font-size: 16px;
+    height: 35px;
+    width: 35px;
+    line-height: 35px !important;
+    text-align: center;
+    background: linear-gradient(to bottom, hsl(247, 88%, 70%), hsl(282, 82%, 51%));
+    box-shadow: 0 2px 12px hsla(247, 88%, 70%, .3);
+    border-radius: 10px;
+    position: absolute;
+    top: 1px;
+    left: -5px;
+}
+
+/*--upcoming shows*/
+
+.bg_box {
+    background: #332e59;
+    height: 270px;
+    width: 500px;
+    padding: 40px 35px;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+}
+
+h3 {
+    color: #9D9DAC;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+h3 a {
+    color: #fff;
+    float: right;
+    font-size: 13px;
+}
+
+h3 a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.all_items {
+        display: flex;
+    padding-top: 5px;
+}
+
+.shows_item {
+    margin-top: 30px;
+    margin-left: 15px;
+    flex-shrink: 0;
+    transform: translateX(-150px);
+}
+
+.shows_img {
+    background: url(../images/deeptouch/shows1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    z-index: 1;
+    padding-top: 25px;
+    padding-left: 80px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.shows_img:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(247, 213, 100);
+    background: linear-gradient(90deg, rgba(247, 213, 100, 0.4458158263305322) 5%, rgba(247, 213, 100, 0.7231267507002801) 39%, rgba(252, 104, 153, 0.711922268907563) 100%);
+    z-index: -1;
+}
+
+.shows_img h3 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.shows_img p {
+    color: #fff;
+    font-size: 12px;
+}
+
+.shows_img span {
+    color: #fff;
+    font-size: 11px;
+    float: right;
+    padding-top: 20px;
+}
+
+
+
+/*--------------------------------------Body End-------------------------*/
+
+/*-----------------------------------Header Start--------------------------*/
+/*--------------------------------Header End------------------------------*/
+
+/*------------------------------Header Start-----------------------------*/
+/*------------------------------Header End--------------------------------*/
+
+/*------------------------------Header Start-----------------------------*/
+/*------------------------------Header End--------------------------------*/
+/*------------------------------Header Start-----------------------------*/
+/*------------------------------Header End--------------------------------*/
+/*------------------------------Header Start-----------------------------*/
+/*------------------------------Header End--------------------------------*/
+/*------------------------------Header Start-----------------------------*/
+/*------------------------------Header End--------------------------------*/
+/*------------------------------Header Start-----------------------------*/
+/*------------------------------Header End--------------------------------*/
+/*------------------------------Header Start-----------------------------*/
+/*------------------------------Header End--------------------------------*/
+/*------------------------------Header Start-----------------------------*/
+/*------------------------------Header End--------------------------------*/
+
+/*---------------------------------------------------
+---------------------responsive css---------------------*/
+
+@media screen and (min-width:992px) and (max-width:1199px) {}
+
+@media screen and (max-width:991px) {}
+
+@media screen and (max-width:767px) {
+    .main_body {
+        display: inherit !important;
+    }
+
+    .side_bar {
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+        align-items: center;
+    }
+
+    .side_bar a {
+        display: inline-block;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .header {
+        display: inherit;
+        text-align: center;
+    }
+}
