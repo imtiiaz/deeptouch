@@ -297,6 +297,7 @@ h3 a:hover {
 .all_items {
         display: flex;
     padding-top: 5px;
+    z-index: 9999;
 }
 
 .shows_item {
@@ -304,6 +305,7 @@ h3 a:hover {
     margin-left: 15px;
     flex-shrink: 0;
     transform: translateX(-150px);
+    z-index: 9999;
 }
 
 .shows_img {
